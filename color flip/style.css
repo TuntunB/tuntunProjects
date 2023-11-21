@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    height: 100hv;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+}
+
+  .colorBg{
+  background-color: greenyellow ;
+  border: 2px solid ;
+  border-radius: 70px;
+  width: 500px;
+  height: 500px;
+
+
+
+  }
+  .btn{
+    margin: 200px;
+  }
+  
+
+    
+ @-webkit-keyframes spin{
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    }
+
+
+
+  .loader {
+    background-color: fuchsia;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid rgb(235, 98, 160);
+    border-bottom: 16px solid blue;
+    border-left: 16px solid yellow;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 5s linear infinite;
+  }
